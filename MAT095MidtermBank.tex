@@ -1,0 +1,47 @@
+\documentclass[12pt]{report}
+
+\usepackage{graphicx, probsoln}
+
+\pagestyle{myheadings}
+\newsavebox{\mybox}
+\renewenvironment{solution}{\par\noindent\begin{lrbox}{\mybox}}{\end{lrbox}\fbox{\usebox{\mybox}}}
+\newcommand{\spc}{\vspace{1.5in}}
+
+\setlength{\textwidth}{6.5in}
+\setlength{\oddsidemargin}{0pt}
+\setlength{\evensidemargin}{0pt}
+\setlength{\voffset}{-.75in}
+\setlength{\textheight}{9in}
+
+%%%%%%%%%%%%%%%%%%%%%%
+% MAKE CHANGES BELOW %
+%%%%%%%%%%%%%%%%%%%%%%
+\markright{MAT 095\hfill Midterm Exam Question Bank\hfill Page }
+
+\begin{document}
+
+\loadallproblems{Bank095Midterm01}
+\loadallproblems{Bank095Midterm02}
+\loadallproblems{Bank095Midterm03}
+\loadallproblems{Bank095Midterm04}
+\loadallproblems{Bank095Midterm05}
+\loadallproblems{Bank095Midterm06}
+\loadallproblems{Bank095Midterm07}
+\loadallproblems{Bank095Midterm08}
+\loadallproblems{Bank095Midterm09}
+\loadallproblems{Bank095Midterm10}
+\loadallproblems{Bank095Midterm11}
+\loadallproblems{Bank095Midterm12}
+\loadallproblems{Bank095Midterm13}
+\loadallproblems{Bank095Midterm14}
+\loadallproblems{Bank095Midterm15}
+\loadallproblems{Bank095Midterm16}
+\loadallproblems{Bank095Midterm17}
+\loadallproblems{Bank095Midterm18}
+
+\showanswers
+\begin{enumerate}
+  \foreachproblem{\item[\thisproblemlabel.]\thisproblem}
+\end{enumerate}
+
+\end{document}
